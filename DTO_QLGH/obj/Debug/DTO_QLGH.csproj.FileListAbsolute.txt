@@ -1,0 +1,12 @@
+E:\DoAn_LapTrinhWindows\Project\QLGiaoHang\DTO_QLGH\bin\Debug\DTO_QLGH.dll
+E:\DoAn_LapTrinhWindows\Project\QLGiaoHang\DTO_QLGH\bin\Debug\DTO_QLGH.pdb
+E:\DoAn_LapTrinhWindows\Project\QLGiaoHang\DTO_QLGH\obj\Debug\DTO_QLGH.csproj.CoreCompileInputs.cache
+E:\DoAn_LapTrinhWindows\Project\QLGiaoHang\DTO_QLGH\obj\Debug\DTO_QLGH.dll
+E:\DoAn_LapTrinhWindows\Project\QLGiaoHang\DTO_QLGH\obj\Debug\DTO_QLGH.pdb
+E:\DoAn_LapTrinhWindows\Project\QLGiaoHang\DTO_QLGH\obj\Debug\DTO_QLGH.csproj.AssemblyReference.cache
+D:\2021-2022\HKIII\DoAn_LapTrinhWindows\Project\QLGiaoHang\DTO_QLGH\bin\Debug\DTO_QLGH.dll
+D:\2021-2022\HKIII\DoAn_LapTrinhWindows\Project\QLGiaoHang\DTO_QLGH\bin\Debug\DTO_QLGH.pdb
+D:\2021-2022\HKIII\DoAn_LapTrinhWindows\Project\QLGiaoHang\DTO_QLGH\obj\Debug\DTO_QLGH.csproj.AssemblyReference.cache
+D:\2021-2022\HKIII\DoAn_LapTrinhWindows\Project\QLGiaoHang\DTO_QLGH\obj\Debug\DTO_QLGH.csproj.CoreCompileInputs.cache
+D:\2021-2022\HKIII\DoAn_LapTrinhWindows\Project\QLGiaoHang\DTO_QLGH\obj\Debug\DTO_QLGH.dll
+D:\2021-2022\HKIII\DoAn_LapTrinhWindows\Project\QLGiaoHang\DTO_QLGH\obj\Debug\DTO_QLGH.pdb

@@ -1,0 +1,9 @@
+E:\DoAn_LapTrinhWindows\Project\QLGiaoHang\DAL_QLGH\bin\Release\DAL_QLGH.dll
+E:\DoAn_LapTrinhWindows\Project\QLGiaoHang\DAL_QLGH\bin\Release\DAL_QLGH.pdb
+E:\DoAn_LapTrinhWindows\Project\QLGiaoHang\DAL_QLGH\bin\Release\DTO_QLGH.dll
+E:\DoAn_LapTrinhWindows\Project\QLGiaoHang\DAL_QLGH\bin\Release\DTO_QLGH.pdb
+E:\DoAn_LapTrinhWindows\Project\QLGiaoHang\DAL_QLGH\obj\Release\DAL_QLGH.csproj.AssemblyReference.cache
+E:\DoAn_LapTrinhWindows\Project\QLGiaoHang\DAL_QLGH\obj\Release\DAL_QLGH.csproj.CoreCompileInputs.cache
+E:\DoAn_LapTrinhWindows\Project\QLGiaoHang\DAL_QLGH\obj\Release\DAL_QLGH.csproj.CopyComplete
+E:\DoAn_LapTrinhWindows\Project\QLGiaoHang\DAL_QLGH\obj\Release\DAL_QLGH.dll
+E:\DoAn_LapTrinhWindows\Project\QLGiaoHang\DAL_QLGH\obj\Release\DAL_QLGH.pdb

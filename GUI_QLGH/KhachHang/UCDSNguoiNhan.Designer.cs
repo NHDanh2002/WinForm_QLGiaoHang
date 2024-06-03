@@ -1,0 +1,721 @@
+﻿
+namespace GUI_QLGH.KhachHang
+{
+    partial class UCDSNguoiNhan
+    {
+        /// <summary> 
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Component Designer generated code
+
+        /// <summary> 
+        /// Required method for Designer support - do not modify 
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCDSNguoiNhan));
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.grdControlDSNN = new DevExpress.XtraGrid.GridControl();
+            this.grdDSNN = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.mann = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.makh = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.tennn = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.sdt = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.cmnd = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.diachi = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.email = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.thongtinkhac = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.txtTTK = new DevExpress.XtraEditors.MemoEdit();
+            this.txtEmail = new DevExpress.XtraEditors.TextEdit();
+            this.txtSDT = new DevExpress.XtraEditors.TextEdit();
+            this.txtTenNN = new DevExpress.XtraEditors.TextEdit();
+            this.txtMaKH = new DevExpress.XtraEditors.TextEdit();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtMaNN = new DevExpress.XtraEditors.TextEdit();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtCMND = new DevExpress.XtraEditors.TextEdit();
+            this.txtDiaChi = new DevExpress.XtraEditors.MemoEdit();
+            this.btnReport = new DevExpress.XtraEditors.SimpleButton();
+            this.btnExport = new DevExpress.XtraEditors.SimpleButton();
+            this.btnThem = new DevExpress.XtraEditors.SimpleButton();
+            this.btnSua = new DevExpress.XtraEditors.SimpleButton();
+            this.btnXoa = new DevExpress.XtraEditors.SimpleButton();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grdControlDSNN)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdDSNN)).BeginInit();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTTK.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtEmail.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtSDT.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTenNN.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtMaKH.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtMaNN.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCMND.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtDiaChi.Properties)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.grdControlDSNN);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(533, 540);
+            this.panel1.TabIndex = 0;
+            // 
+            // grdControlDSNN
+            // 
+            this.grdControlDSNN.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grdControlDSNN.Location = new System.Drawing.Point(0, 0);
+            this.grdControlDSNN.LookAndFeel.Style = DevExpress.LookAndFeel.LookAndFeelStyle.Flat;
+            this.grdControlDSNN.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.grdControlDSNN.MainView = this.grdDSNN;
+            this.grdControlDSNN.Name = "grdControlDSNN";
+            this.grdControlDSNN.Size = new System.Drawing.Size(533, 540);
+            this.grdControlDSNN.TabIndex = 1;
+            this.grdControlDSNN.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.grdDSNN});
+            // 
+            // grdDSNN
+            // 
+            this.grdDSNN.Appearance.ColumnFilterButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(254)))));
+            this.grdDSNN.Appearance.ColumnFilterButton.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(171)))), ((int)(((byte)(228)))));
+            this.grdDSNN.Appearance.ColumnFilterButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(254)))));
+            this.grdDSNN.Appearance.ColumnFilterButton.ForeColor = System.Drawing.Color.Black;
+            this.grdDSNN.Appearance.ColumnFilterButton.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.grdDSNN.Appearance.ColumnFilterButton.Options.UseBackColor = true;
+            this.grdDSNN.Appearance.ColumnFilterButton.Options.UseBorderColor = true;
+            this.grdDSNN.Appearance.ColumnFilterButton.Options.UseForeColor = true;
+            this.grdDSNN.Appearance.ColumnFilterButtonActive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.grdDSNN.Appearance.ColumnFilterButtonActive.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(154)))), ((int)(((byte)(190)))), ((int)(((byte)(243)))));
+            this.grdDSNN.Appearance.ColumnFilterButtonActive.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.grdDSNN.Appearance.ColumnFilterButtonActive.ForeColor = System.Drawing.Color.Black;
+            this.grdDSNN.Appearance.ColumnFilterButtonActive.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.grdDSNN.Appearance.ColumnFilterButtonActive.Options.UseBackColor = true;
+            this.grdDSNN.Appearance.ColumnFilterButtonActive.Options.UseBorderColor = true;
+            this.grdDSNN.Appearance.ColumnFilterButtonActive.Options.UseForeColor = true;
+            this.grdDSNN.Appearance.Empty.BackColor = System.Drawing.Color.White;
+            this.grdDSNN.Appearance.Empty.Options.UseBackColor = true;
+            this.grdDSNN.Appearance.EvenRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(242)))), ((int)(((byte)(254)))));
+            this.grdDSNN.Appearance.EvenRow.ForeColor = System.Drawing.Color.Black;
+            this.grdDSNN.Appearance.EvenRow.Options.UseBackColor = true;
+            this.grdDSNN.Appearance.EvenRow.Options.UseForeColor = true;
+            this.grdDSNN.Appearance.FilterCloseButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(254)))));
+            this.grdDSNN.Appearance.FilterCloseButton.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(171)))), ((int)(((byte)(228)))));
+            this.grdDSNN.Appearance.FilterCloseButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(254)))));
+            this.grdDSNN.Appearance.FilterCloseButton.ForeColor = System.Drawing.Color.Black;
+            this.grdDSNN.Appearance.FilterCloseButton.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.grdDSNN.Appearance.FilterCloseButton.Options.UseBackColor = true;
+            this.grdDSNN.Appearance.FilterCloseButton.Options.UseBorderColor = true;
+            this.grdDSNN.Appearance.FilterCloseButton.Options.UseForeColor = true;
+            this.grdDSNN.Appearance.FilterPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(109)))), ((int)(((byte)(185)))));
+            this.grdDSNN.Appearance.FilterPanel.ForeColor = System.Drawing.Color.White;
+            this.grdDSNN.Appearance.FilterPanel.Options.UseBackColor = true;
+            this.grdDSNN.Appearance.FilterPanel.Options.UseForeColor = true;
+            this.grdDSNN.Appearance.FixedLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(97)))), ((int)(((byte)(156)))));
+            this.grdDSNN.Appearance.FixedLine.Options.UseBackColor = true;
+            this.grdDSNN.Appearance.FocusedCell.BackColor = System.Drawing.Color.White;
+            this.grdDSNN.Appearance.FocusedCell.ForeColor = System.Drawing.Color.Black;
+            this.grdDSNN.Appearance.FocusedCell.Options.UseBackColor = true;
+            this.grdDSNN.Appearance.FocusedCell.Options.UseForeColor = true;
+            this.grdDSNN.Appearance.FocusedRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(106)))), ((int)(((byte)(197)))));
+            this.grdDSNN.Appearance.FocusedRow.ForeColor = System.Drawing.Color.White;
+            this.grdDSNN.Appearance.FocusedRow.Options.UseBackColor = true;
+            this.grdDSNN.Appearance.FocusedRow.Options.UseForeColor = true;
+            this.grdDSNN.Appearance.FooterPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(254)))));
+            this.grdDSNN.Appearance.FooterPanel.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(171)))), ((int)(((byte)(228)))));
+            this.grdDSNN.Appearance.FooterPanel.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(254)))));
+            this.grdDSNN.Appearance.FooterPanel.ForeColor = System.Drawing.Color.Black;
+            this.grdDSNN.Appearance.FooterPanel.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.grdDSNN.Appearance.FooterPanel.Options.UseBackColor = true;
+            this.grdDSNN.Appearance.FooterPanel.Options.UseBorderColor = true;
+            this.grdDSNN.Appearance.FooterPanel.Options.UseForeColor = true;
+            this.grdDSNN.Appearance.GroupButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(216)))), ((int)(((byte)(247)))));
+            this.grdDSNN.Appearance.GroupButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(216)))), ((int)(((byte)(247)))));
+            this.grdDSNN.Appearance.GroupButton.ForeColor = System.Drawing.Color.Black;
+            this.grdDSNN.Appearance.GroupButton.Options.UseBackColor = true;
+            this.grdDSNN.Appearance.GroupButton.Options.UseBorderColor = true;
+            this.grdDSNN.Appearance.GroupButton.Options.UseForeColor = true;
+            this.grdDSNN.Appearance.GroupFooter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(216)))), ((int)(((byte)(247)))));
+            this.grdDSNN.Appearance.GroupFooter.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(216)))), ((int)(((byte)(247)))));
+            this.grdDSNN.Appearance.GroupFooter.ForeColor = System.Drawing.Color.Black;
+            this.grdDSNN.Appearance.GroupFooter.Options.UseBackColor = true;
+            this.grdDSNN.Appearance.GroupFooter.Options.UseBorderColor = true;
+            this.grdDSNN.Appearance.GroupFooter.Options.UseForeColor = true;
+            this.grdDSNN.Appearance.GroupPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(109)))), ((int)(((byte)(185)))));
+            this.grdDSNN.Appearance.GroupPanel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(254)))));
+            this.grdDSNN.Appearance.GroupPanel.Options.UseBackColor = true;
+            this.grdDSNN.Appearance.GroupPanel.Options.UseForeColor = true;
+            this.grdDSNN.Appearance.GroupRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(216)))), ((int)(((byte)(247)))));
+            this.grdDSNN.Appearance.GroupRow.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(216)))), ((int)(((byte)(247)))));
+            this.grdDSNN.Appearance.GroupRow.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
+            this.grdDSNN.Appearance.GroupRow.ForeColor = System.Drawing.Color.Black;
+            this.grdDSNN.Appearance.GroupRow.Options.UseBackColor = true;
+            this.grdDSNN.Appearance.GroupRow.Options.UseBorderColor = true;
+            this.grdDSNN.Appearance.GroupRow.Options.UseFont = true;
+            this.grdDSNN.Appearance.GroupRow.Options.UseForeColor = true;
+            this.grdDSNN.Appearance.HeaderPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(254)))));
+            this.grdDSNN.Appearance.HeaderPanel.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(171)))), ((int)(((byte)(228)))));
+            this.grdDSNN.Appearance.HeaderPanel.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(254)))));
+            this.grdDSNN.Appearance.HeaderPanel.ForeColor = System.Drawing.Color.Black;
+            this.grdDSNN.Appearance.HeaderPanel.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.grdDSNN.Appearance.HeaderPanel.Options.UseBackColor = true;
+            this.grdDSNN.Appearance.HeaderPanel.Options.UseBorderColor = true;
+            this.grdDSNN.Appearance.HeaderPanel.Options.UseForeColor = true;
+            this.grdDSNN.Appearance.HideSelectionRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(153)))), ((int)(((byte)(228)))));
+            this.grdDSNN.Appearance.HideSelectionRow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(224)))), ((int)(((byte)(251)))));
+            this.grdDSNN.Appearance.HideSelectionRow.Options.UseBackColor = true;
+            this.grdDSNN.Appearance.HideSelectionRow.Options.UseForeColor = true;
+            this.grdDSNN.Appearance.HorzLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(127)))), ((int)(((byte)(196)))));
+            this.grdDSNN.Appearance.HorzLine.Options.UseBackColor = true;
+            this.grdDSNN.Appearance.OddRow.BackColor = System.Drawing.Color.White;
+            this.grdDSNN.Appearance.OddRow.ForeColor = System.Drawing.Color.Black;
+            this.grdDSNN.Appearance.OddRow.Options.UseBackColor = true;
+            this.grdDSNN.Appearance.OddRow.Options.UseForeColor = true;
+            this.grdDSNN.Appearance.Preview.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(252)))), ((int)(((byte)(255)))));
+            this.grdDSNN.Appearance.Preview.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(129)))), ((int)(((byte)(185)))));
+            this.grdDSNN.Appearance.Preview.Options.UseBackColor = true;
+            this.grdDSNN.Appearance.Preview.Options.UseForeColor = true;
+            this.grdDSNN.Appearance.Row.BackColor = System.Drawing.Color.White;
+            this.grdDSNN.Appearance.Row.ForeColor = System.Drawing.Color.Black;
+            this.grdDSNN.Appearance.Row.Options.UseBackColor = true;
+            this.grdDSNN.Appearance.Row.Options.UseForeColor = true;
+            this.grdDSNN.Appearance.RowSeparator.BackColor = System.Drawing.Color.White;
+            this.grdDSNN.Appearance.RowSeparator.Options.UseBackColor = true;
+            this.grdDSNN.Appearance.SelectedRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(126)))), ((int)(((byte)(217)))));
+            this.grdDSNN.Appearance.SelectedRow.ForeColor = System.Drawing.Color.White;
+            this.grdDSNN.Appearance.SelectedRow.Options.UseBackColor = true;
+            this.grdDSNN.Appearance.SelectedRow.Options.UseForeColor = true;
+            this.grdDSNN.Appearance.VertLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(127)))), ((int)(((byte)(196)))));
+            this.grdDSNN.Appearance.VertLine.Options.UseBackColor = true;
+            this.grdDSNN.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.mann,
+            this.makh,
+            this.tennn,
+            this.sdt,
+            this.cmnd,
+            this.diachi,
+            this.email,
+            this.thongtinkhac});
+            this.grdDSNN.GridControl = this.grdControlDSNN;
+            this.grdDSNN.Name = "grdDSNN";
+            this.grdDSNN.OptionsView.EnableAppearanceEvenRow = true;
+            this.grdDSNN.OptionsView.EnableAppearanceOddRow = true;
+            this.grdDSNN.PaintStyleName = "WindowsXP";
+            // 
+            // mann
+            // 
+            this.mann.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.mann.AppearanceCell.Options.UseFont = true;
+            this.mann.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.mann.AppearanceHeader.Options.UseFont = true;
+            this.mann.AppearanceHeader.Options.UseTextOptions = true;
+            this.mann.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.mann.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.mann.Caption = "Mã người nhận";
+            this.mann.FieldName = "mann";
+            this.mann.MinWidth = 25;
+            this.mann.Name = "mann";
+            this.mann.Visible = true;
+            this.mann.VisibleIndex = 0;
+            this.mann.Width = 94;
+            // 
+            // makh
+            // 
+            this.makh.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.makh.AppearanceCell.Options.UseFont = true;
+            this.makh.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.makh.AppearanceHeader.Options.UseFont = true;
+            this.makh.AppearanceHeader.Options.UseTextOptions = true;
+            this.makh.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.makh.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.makh.Caption = "Mã khách hàng";
+            this.makh.FieldName = "makh";
+            this.makh.MinWidth = 25;
+            this.makh.Name = "makh";
+            this.makh.Visible = true;
+            this.makh.VisibleIndex = 1;
+            this.makh.Width = 94;
+            // 
+            // tennn
+            // 
+            this.tennn.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.tennn.AppearanceCell.Options.UseFont = true;
+            this.tennn.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.tennn.AppearanceHeader.Options.UseFont = true;
+            this.tennn.AppearanceHeader.Options.UseTextOptions = true;
+            this.tennn.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.tennn.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.tennn.Caption = "Tên người nhận";
+            this.tennn.FieldName = "tennn";
+            this.tennn.MinWidth = 25;
+            this.tennn.Name = "tennn";
+            this.tennn.Visible = true;
+            this.tennn.VisibleIndex = 2;
+            this.tennn.Width = 94;
+            // 
+            // sdt
+            // 
+            this.sdt.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.sdt.AppearanceCell.Options.UseFont = true;
+            this.sdt.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.sdt.AppearanceHeader.Options.UseFont = true;
+            this.sdt.AppearanceHeader.Options.UseTextOptions = true;
+            this.sdt.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.sdt.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.sdt.Caption = "Số điện thoại";
+            this.sdt.FieldName = "sdt";
+            this.sdt.MinWidth = 25;
+            this.sdt.Name = "sdt";
+            this.sdt.Visible = true;
+            this.sdt.VisibleIndex = 3;
+            this.sdt.Width = 94;
+            // 
+            // cmnd
+            // 
+            this.cmnd.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.cmnd.AppearanceCell.Options.UseFont = true;
+            this.cmnd.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.cmnd.AppearanceHeader.Options.UseFont = true;
+            this.cmnd.AppearanceHeader.Options.UseTextOptions = true;
+            this.cmnd.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.cmnd.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.cmnd.Caption = "CMND";
+            this.cmnd.FieldName = "cmnd";
+            this.cmnd.MinWidth = 25;
+            this.cmnd.Name = "cmnd";
+            this.cmnd.Visible = true;
+            this.cmnd.VisibleIndex = 5;
+            this.cmnd.Width = 94;
+            // 
+            // diachi
+            // 
+            this.diachi.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.diachi.AppearanceCell.Options.UseFont = true;
+            this.diachi.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.diachi.AppearanceHeader.Options.UseFont = true;
+            this.diachi.AppearanceHeader.Options.UseTextOptions = true;
+            this.diachi.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.diachi.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.diachi.Caption = "Địa chỉ";
+            this.diachi.FieldName = "diachi";
+            this.diachi.MinWidth = 25;
+            this.diachi.Name = "diachi";
+            this.diachi.Visible = true;
+            this.diachi.VisibleIndex = 4;
+            this.diachi.Width = 94;
+            // 
+            // email
+            // 
+            this.email.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.email.AppearanceCell.Options.UseFont = true;
+            this.email.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.email.AppearanceHeader.Options.UseFont = true;
+            this.email.AppearanceHeader.Options.UseTextOptions = true;
+            this.email.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.email.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.email.Caption = "Email";
+            this.email.FieldName = "email";
+            this.email.MinWidth = 25;
+            this.email.Name = "email";
+            this.email.Visible = true;
+            this.email.VisibleIndex = 6;
+            this.email.Width = 94;
+            // 
+            // thongtinkhac
+            // 
+            this.thongtinkhac.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.thongtinkhac.AppearanceCell.Options.UseFont = true;
+            this.thongtinkhac.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.thongtinkhac.AppearanceHeader.Options.UseFont = true;
+            this.thongtinkhac.AppearanceHeader.Options.UseTextOptions = true;
+            this.thongtinkhac.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.thongtinkhac.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.thongtinkhac.Caption = "Thông tin khác";
+            this.thongtinkhac.FieldName = "thongtinkhac";
+            this.thongtinkhac.MinWidth = 25;
+            this.thongtinkhac.Name = "thongtinkhac";
+            this.thongtinkhac.Visible = true;
+            this.thongtinkhac.VisibleIndex = 7;
+            this.thongtinkhac.Width = 94;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.btnReport);
+            this.panel2.Controls.Add(this.btnExport);
+            this.panel2.Controls.Add(this.btnThem);
+            this.panel2.Controls.Add(this.btnSua);
+            this.panel2.Controls.Add(this.btnXoa);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 540);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(903, 100);
+            this.panel2.TabIndex = 1;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.txtDiaChi);
+            this.panel3.Controls.Add(this.txtCMND);
+            this.panel3.Controls.Add(this.label8);
+            this.panel3.Controls.Add(this.label6);
+            this.panel3.Controls.Add(this.txtMaNN);
+            this.panel3.Controls.Add(this.label5);
+            this.panel3.Controls.Add(this.txtTTK);
+            this.panel3.Controls.Add(this.txtEmail);
+            this.panel3.Controls.Add(this.txtSDT);
+            this.panel3.Controls.Add(this.txtTenNN);
+            this.panel3.Controls.Add(this.txtMaKH);
+            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.label3);
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Controls.Add(this.label2);
+            this.panel3.Controls.Add(this.label1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel3.Location = new System.Drawing.Point(533, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(370, 540);
+            this.panel3.TabIndex = 1;
+            // 
+            // txtTTK
+            // 
+            this.txtTTK.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtTTK.Location = new System.Drawing.Point(171, 392);
+            this.txtTTK.Name = "txtTTK";
+            this.txtTTK.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.txtTTK.Properties.Appearance.Options.UseFont = true;
+            this.txtTTK.Size = new System.Drawing.Size(193, 117);
+            this.txtTTK.TabIndex = 21;
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtEmail.Location = new System.Drawing.Point(171, 161);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.txtEmail.Properties.Appearance.Options.UseFont = true;
+            this.txtEmail.Size = new System.Drawing.Size(193, 28);
+            this.txtEmail.TabIndex = 20;
+            // 
+            // txtSDT
+            // 
+            this.txtSDT.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtSDT.Location = new System.Drawing.Point(171, 125);
+            this.txtSDT.Name = "txtSDT";
+            this.txtSDT.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.txtSDT.Properties.Appearance.Options.UseFont = true;
+            this.txtSDT.Size = new System.Drawing.Size(193, 28);
+            this.txtSDT.TabIndex = 19;
+            // 
+            // txtTenNN
+            // 
+            this.txtTenNN.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtTenNN.Location = new System.Drawing.Point(171, 89);
+            this.txtTenNN.Name = "txtTenNN";
+            this.txtTenNN.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.txtTenNN.Properties.Appearance.Options.UseFont = true;
+            this.txtTenNN.Size = new System.Drawing.Size(193, 28);
+            this.txtTenNN.TabIndex = 18;
+            // 
+            // txtMaKH
+            // 
+            this.txtMaKH.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtMaKH.Location = new System.Drawing.Point(171, 53);
+            this.txtMaKH.Name = "txtMaKH";
+            this.txtMaKH.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.txtMaKH.Properties.Appearance.Options.UseFont = true;
+            this.txtMaKH.Properties.ReadOnly = true;
+            this.txtMaKH.Size = new System.Drawing.Size(193, 28);
+            this.txtMaKH.TabIndex = 17;
+            // 
+            // label7
+            // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.label7.ForeColor = System.Drawing.Color.Blue;
+            this.label7.Location = new System.Drawing.Point(6, 395);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(143, 23);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "Thông tin khác:";
+            // 
+            // label3
+            // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.label3.ForeColor = System.Drawing.Color.Blue;
+            this.label3.Location = new System.Drawing.Point(7, 164);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(62, 23);
+            this.label3.TabIndex = 15;
+            this.label3.Text = "Email:";
+            // 
+            // label4
+            // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.label4.ForeColor = System.Drawing.Color.Blue;
+            this.label4.Location = new System.Drawing.Point(7, 128);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(127, 23);
+            this.label4.TabIndex = 14;
+            this.label4.Text = "Số điện thoại:";
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.label2.ForeColor = System.Drawing.Color.Blue;
+            this.label2.Location = new System.Drawing.Point(7, 92);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(152, 23);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "Tên người nhận:";
+            // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.label1.ForeColor = System.Drawing.Color.Blue;
+            this.label1.Location = new System.Drawing.Point(7, 56);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(147, 23);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "Mã khách hàng:";
+            // 
+            // label5
+            // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.label5.ForeColor = System.Drawing.Color.Blue;
+            this.label5.Location = new System.Drawing.Point(7, 20);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(145, 23);
+            this.label5.TabIndex = 22;
+            this.label5.Text = "Mã người nhận:";
+            // 
+            // txtMaNN
+            // 
+            this.txtMaNN.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtMaNN.Location = new System.Drawing.Point(171, 17);
+            this.txtMaNN.Name = "txtMaNN";
+            this.txtMaNN.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.txtMaNN.Properties.Appearance.Options.UseFont = true;
+            this.txtMaNN.Properties.ReadOnly = true;
+            this.txtMaNN.Size = new System.Drawing.Size(193, 28);
+            this.txtMaNN.TabIndex = 23;
+            // 
+            // label6
+            // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.label6.ForeColor = System.Drawing.Color.Blue;
+            this.label6.Location = new System.Drawing.Point(7, 200);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(69, 23);
+            this.label6.TabIndex = 24;
+            this.label6.Text = "CMND:";
+            // 
+            // label8
+            // 
+            this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.label8.ForeColor = System.Drawing.Color.Blue;
+            this.label8.Location = new System.Drawing.Point(7, 253);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(74, 23);
+            this.label8.TabIndex = 25;
+            this.label8.Text = "Địa chỉ:";
+            // 
+            // txtCMND
+            // 
+            this.txtCMND.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtCMND.Location = new System.Drawing.Point(171, 197);
+            this.txtCMND.Name = "txtCMND";
+            this.txtCMND.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.txtCMND.Properties.Appearance.Options.UseFont = true;
+            this.txtCMND.Size = new System.Drawing.Size(193, 28);
+            this.txtCMND.TabIndex = 26;
+            // 
+            // txtDiaChi
+            // 
+            this.txtDiaChi.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtDiaChi.Location = new System.Drawing.Point(171, 251);
+            this.txtDiaChi.Name = "txtDiaChi";
+            this.txtDiaChi.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.txtDiaChi.Properties.Appearance.Options.UseFont = true;
+            this.txtDiaChi.Size = new System.Drawing.Size(193, 117);
+            this.txtDiaChi.TabIndex = 27;
+            // 
+            // btnReport
+            // 
+            this.btnReport.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnReport.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Question;
+            this.btnReport.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.btnReport.Appearance.Options.UseBackColor = true;
+            this.btnReport.Appearance.Options.UseFont = true;
+            this.btnReport.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnReport.ImageOptions.Image")));
+            this.btnReport.Location = new System.Drawing.Point(313, 19);
+            this.btnReport.Name = "btnReport";
+            this.btnReport.Size = new System.Drawing.Size(101, 48);
+            this.btnReport.TabIndex = 9;
+            this.btnReport.Text = "Report";
+            this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
+            // 
+            // btnExport
+            // 
+            this.btnExport.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnExport.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Question;
+            this.btnExport.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.btnExport.Appearance.Options.UseBackColor = true;
+            this.btnExport.Appearance.Options.UseFont = true;
+            this.btnExport.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnExport.ImageOptions.Image")));
+            this.btnExport.Location = new System.Drawing.Point(432, 19);
+            this.btnExport.Name = "btnExport";
+            this.btnExport.Size = new System.Drawing.Size(101, 48);
+            this.btnExport.TabIndex = 8;
+            this.btnExport.Text = "Export";
+            this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
+            // 
+            // btnThem
+            // 
+            this.btnThem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnThem.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Question;
+            this.btnThem.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.btnThem.Appearance.Options.UseBackColor = true;
+            this.btnThem.Appearance.Options.UseFont = true;
+            this.btnThem.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnThem.ImageOptions.Image")));
+            this.btnThem.Location = new System.Drawing.Point(551, 19);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(101, 48);
+            this.btnThem.TabIndex = 7;
+            this.btnThem.Text = "Thêm";
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
+            // 
+            // btnSua
+            // 
+            this.btnSua.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSua.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Question;
+            this.btnSua.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.btnSua.Appearance.Options.UseBackColor = true;
+            this.btnSua.Appearance.Options.UseFont = true;
+            this.btnSua.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSua.ImageOptions.Image")));
+            this.btnSua.Location = new System.Drawing.Point(670, 19);
+            this.btnSua.Name = "btnSua";
+            this.btnSua.Size = new System.Drawing.Size(101, 48);
+            this.btnSua.TabIndex = 6;
+            this.btnSua.Text = "Sửa";
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
+            // 
+            // btnXoa
+            // 
+            this.btnXoa.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnXoa.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Question;
+            this.btnXoa.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.btnXoa.Appearance.Options.UseBackColor = true;
+            this.btnXoa.Appearance.Options.UseFont = true;
+            this.btnXoa.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.ImageOptions.Image")));
+            this.btnXoa.Location = new System.Drawing.Point(789, 19);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(101, 48);
+            this.btnXoa.TabIndex = 5;
+            this.btnXoa.Text = "Xóa";
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
+            // 
+            // UCDSNguoiNhan
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
+            this.Name = "UCDSNguoiNhan";
+            this.Size = new System.Drawing.Size(903, 640);
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.grdControlDSNN)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdDSNN)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTTK.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtEmail.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtSDT.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTenNN.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtMaKH.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtMaNN.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCMND.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtDiaChi.Properties)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private DevExpress.XtraGrid.GridControl grdControlDSNN;
+        private DevExpress.XtraGrid.Views.Grid.GridView grdDSNN;
+        private DevExpress.XtraGrid.Columns.GridColumn mann;
+        private DevExpress.XtraGrid.Columns.GridColumn makh;
+        private DevExpress.XtraGrid.Columns.GridColumn tennn;
+        private DevExpress.XtraGrid.Columns.GridColumn sdt;
+        private DevExpress.XtraGrid.Columns.GridColumn cmnd;
+        private DevExpress.XtraGrid.Columns.GridColumn diachi;
+        private DevExpress.XtraGrid.Columns.GridColumn email;
+        private DevExpress.XtraGrid.Columns.GridColumn thongtinkhac;
+        private DevExpress.XtraEditors.MemoEdit txtDiaChi;
+        private DevExpress.XtraEditors.TextEdit txtCMND;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label6;
+        private DevExpress.XtraEditors.TextEdit txtMaNN;
+        private System.Windows.Forms.Label label5;
+        private DevExpress.XtraEditors.MemoEdit txtTTK;
+        private DevExpress.XtraEditors.TextEdit txtEmail;
+        private DevExpress.XtraEditors.TextEdit txtSDT;
+        private DevExpress.XtraEditors.TextEdit txtTenNN;
+        private DevExpress.XtraEditors.TextEdit txtMaKH;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private DevExpress.XtraEditors.SimpleButton btnReport;
+        private DevExpress.XtraEditors.SimpleButton btnExport;
+        private DevExpress.XtraEditors.SimpleButton btnThem;
+        private DevExpress.XtraEditors.SimpleButton btnSua;
+        private DevExpress.XtraEditors.SimpleButton btnXoa;
+    }
+}
